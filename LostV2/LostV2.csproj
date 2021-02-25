@@ -60,19 +60,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -117,6 +117,102 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\jungle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa5ef710a610180e7beafb850dc0f745.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5846e386e02ba735318b74dc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftover-pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stacy_stab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stacy_blood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside_house.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angry_stacy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest_chill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mutant_bird.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cult.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clif_fall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plant_eating.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stacy_stabing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\safehouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plant_food.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fly.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\death.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\god.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood_hand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloody.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\449092__dobroide__20181018-scream03.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1013__rhumphries__rbh-household-drip-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\555382__samsterbirdies__scary-noise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50817__scriptique__knife-slides.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\402024__cybermad__creepy-ambient.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Store_Door_Chime-Mike_Koenig-570742973.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
